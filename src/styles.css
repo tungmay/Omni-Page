@@ -11,6 +11,7 @@
 
 .mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar  {
     background-color: #88cf00;
+    
 }
 
 .mat-tab-link {
@@ -20,9 +21,16 @@
 a {
     color: #000000;
     text-decoration: none;
+  
 }
 
 a:hover {
     color: #000000;
     text-decoration:none;
+}
+
+.mat-tab-label, .mat-tab-link {
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+    font-size: 18px;
+    font-weight: 500;
 }
